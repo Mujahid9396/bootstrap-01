@@ -1,0 +1,233 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span {
+  font-family: "Work Sans", sans-serif;
+}
+
+body {
+  color: #000;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+/* Nav Section Start */
+
+.navbar-light .navbar-brand {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.navbar span {
+  font-family: "Pacifico", cursive;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #101010;
+  display: block;
+  padding: 0 20px;
+  font-size: 17px;
+  line-height: 50px;
+  font-weight: 500;
+}
+
+.navbar {
+  border-bottom: 1px solid #ddd;
+}
+
+/* Nav Section End */
+
+/* Home Section Start */
+.home-secton {
+  background: url(img/mbr-4.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 200px 0;
+  color: #fff;
+  position: relative;
+  z-index: 9;
+}
+
+.home-secton:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}
+
+.home-secton h3 {
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.home-secton h2 {
+  font-size: 60px;
+  margin: 30px 0;
+  font-weight: bold;
+}
+
+.all-btn {
+  font-size: 20px;
+  font-weight: 600;
+  color: #7d7d7d;
+  transition: 0.5s;
+  border-radius: 10px !important;
+}
+
+.all-btn:hover {
+  background: #6278df !important;
+  color: #fff;
+}
+
+/* Home Section End */
+/* Home Section End */
+
+.video-section {
+  padding: 100px 0;
+  background: #f7f9ff;
+}
+
+.video-text h3 {
+  font-size: 51px;
+  font-weight: 400;
+  margin-bottom: 35px;
+  text-align: left;
+}
+
+.video-text p {
+  color: #767676;
+  font-size: 18px;
+  line-height: 1.7em;
+  text-align: left;
+}
+/* Home Section End */
+
+.about-more {
+  background: #fff;
+  padding: 100px 0;
+}
+
+.about-more h1 {
+  font-size: 64px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.about-more p {
+  color: #767676;
+  font-size: 26px;
+  font-weight: 300;
+}
+
+.icon {
+  position: absolute;
+  font-size: 35px;
+  color: #6278df;
+}
+
+.iconText {
+  text-align: left;
+  padding-left: 68px;
+}
+
+.iconText h3 {
+  font-size: 23px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.iconText p {
+  color: #767676;
+  font-size: 20px;
+  line-height: 1.6em;
+  margin-top: -10px;
+}
+
+.startApp {
+  background: #f7f9ff;
+  padding: 50px;
+}
+.startApp h2 {
+  font-size: 56px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.startApp .app-p {
+  color: #767676;
+  font-size: 26px;
+  font-weight: 300;
+}
+
+.startApp h4 {
+  font-size: 25px;
+  font-weight: 500;
+}
+.startApp .stat-text {
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
+.startApp h1 {
+  margin: 42px 0;
+  font-size: 56px;
+  font-weight: bold;
+}
+
+.startApp span {
+  font-size: 20px;
+}
+
+.startApp h5 {
+  font-weight: 500;
+  font-size: 21px;
+  margin-bottom: 22px;
+}
+
+p.start-text {
+  font-size: 20px;
+  line-height: 1.5rem;
+}
+
+.check {
+  position: absolute;
+  color: #6278df;
+  font-size: 30px;
+}
+
+.check-text {
+  position: relative;
+  margin-left: 20%;
+  margin-top: 8%;
+  color: #767676;
+  font-size: 22px;
+}
+.team {
+  padding: 100px 0;
+}
+.team h2 {
+  font-size: 40px;
+}
+
+.newsletter {
+  padding: 100px 0;
+}
+
+.newsletter p {
+  color: #767676;
+  font-size: 26px;
+  font-weight: 300;
+}
+.newsletter h2 {
+  font-size: 44px;
+}
