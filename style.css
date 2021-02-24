@@ -212,6 +212,7 @@ p.start-text {
   color: #767676;
   font-size: 22px;
 }
+
 .team {
   padding: 100px 0;
 }
@@ -221,6 +222,7 @@ p.start-text {
 
 .newsletter {
   padding: 100px 0;
+  background-color: #f7f9ff;
 }
 
 .newsletter p {
@@ -230,4 +232,89 @@ p.start-text {
 }
 .newsletter h2 {
   font-size: 44px;
+}
+
+.email-input {
+  padding: 25px 90px !important;
+  border-radius: 10px !important;
+  border: none;
+}
+
+.email-input::-webkit-input-placeholder {
+  font-size: 25px;
+}
+
+.sub-btn {
+  background: #6278df;
+  font-size: 23px;
+  color: #fff;
+  border: none;
+  padding: 20px 90px;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.sub-btn:hover {
+  background: #fff;
+  color: #6278df;
+  border: 2px solid #6278df;
+  padding: 18px 88px;
+  transition: 0.5s;
+}
+
+.new {
+  padding: 100px 0;
+}
+
+.new h2 {
+  font-size: 45px;
+  font-weight: 500;
+  margin-top: 25px;
+}
+
+.new h5 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.new p {
+  color: #767676;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.7em;
+}
+
+.feedback {
+  padding: 100px 0;
+  background-color: #f7f9ff;
+}
+
+.feedback p {
+  color: #767676;
+  font-size: 26px;
+  font-weight: 300;
+}
+.feedback h2 {
+  font-size: 44px;
+}
+
+.feedback .row .card-text {
+  color: #767676;
+  font-size: 20px;
+  line-height: 1.8em;
+}
+
+.feedback .card-text::after {
+  content: "";
+  position: absolute;
+  bottom: -19px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 20px 0 20px;
+  border-color: #ffffff transparent transparent transparent;
 }
